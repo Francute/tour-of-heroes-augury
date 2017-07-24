@@ -9,9 +9,9 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "public"
       ],
-      "index": "index.html",
+      "index": "app/vistas/layout/index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "test.ts",
@@ -19,7 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "app/vistas/layout/tema.scss",
+        "app/vistas/layout/styles.styl"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

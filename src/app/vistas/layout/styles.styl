@@ -1,3 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
 
+// Fuente Nunito - Versión Regular y Bold
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+// Fuente de Íconos - Material
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+
+@import 'colores.styl'
+
+// Funciones comunes
+fondo(color)
+  background-color color
+
+opacidad(valor)
+  opacity valor
+
+.puede-ser-largo
+  word-break break-all
+
+.centrar-texto
+  text-align center
+
+.mat-toolbar
+  h1, a
+    color white
+
+.marg-right
+  margin-right .2rem
+
+.marg-left
+  margin-left .2rem
+
+md-card
+  border 1px solid mat_grey_300
+  md-card-actions
+    display flex !important
+    justify-content flex-end
+
+// Solo por motivos de organización
+@import 'botones.styl'
+
+// Responsividad
+@import 'responsividad.styl'

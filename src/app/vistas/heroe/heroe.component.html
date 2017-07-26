@@ -1,0 +1,25 @@
+<md-card class="tarjeta-heroe">
+  <md-card-header>
+    <md-card-title class="puede-ser-largo centrar-texto">{{heroe.nombre}}</md-card-title>
+  </md-card-header>
+  <md-card-content>
+    <span>id</span>
+    <p>{{heroe.id}}</p>
+    <span>nombre</span>
+    <p class="puede-ser-largo">{{heroe.nombre}}</p>
+    <span>salvaciones</span>
+    <p>{{heroe.salvaciones}}</p>
+    <label>Nombre</label>
+    <input [(ngModel)]="heroe.nombre" placeholder="Nombre del Héroe">
+  </md-card-content>
+  <md-card-actions>
+    <button md-button class="boton alterno" color="warn">
+      <i class="material-icons marg-right">arrow_back</i>
+      <span>Volver</span>
+    </button>
+    <button md-button class="boton exito" color="primary">
+      <span>Editar</span>
+      <i class="material-icons marg-left">mode_edit</i>
+    </button>
+  </md-card-actions>
+</md-card>

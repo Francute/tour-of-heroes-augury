@@ -1,0 +1,29 @@
+.tarjeta-heroe md-card-header {
+  display: flex;
+  justify-content: center;
+}
+.tarjeta-heroe md-card-header md-card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.tarjeta-heroe md-card-content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0 1rem;
+  margin-bottom: 0;
+}
+.tarjeta-heroe md-card-content p {
+  margin: 0;
+}
+.tarjeta-heroe md-card-content span,
+.tarjeta-heroe md-card-content label {
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: right;
+}
+.tarjeta-heroe md-card-actions {
+  text-align: right;
+}
+.tarjeta-heroe md-card-actions button {
+  text-transform: uppercase;
+}

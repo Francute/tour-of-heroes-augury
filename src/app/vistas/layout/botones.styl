@@ -1,0 +1,25 @@
+.exito, .neutro, .alterno
+  transition background-color .85s
+  &:hover
+    transition background-color 0s
+  .mat-button-focus-overlay
+    display none
+  span
+    display flex
+    align-items center
+    color black_87_opacity !important
+
+.exito:hover
+  fondo(lighten(color-primario, 90%))
+  .material-icons
+    color color-primario
+
+.neutro:hover
+  fondo(lighten(color-acento, 80%))
+  .material-icons
+    color color-acento
+
+.alterno:hover
+  fondo(lighten(color-alterno, 90%))
+  .material-icons
+    color color-alterno

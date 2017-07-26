@@ -1,0 +1,5 @@
+.exito .mat-button-focus-overlay,
+.alternativo .mat-button-focus-overlay,
+.neutral .mat-button-focus-overlay {
+  display: none;
+}

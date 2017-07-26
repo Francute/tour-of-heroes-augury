@@ -6,11 +6,18 @@
 // Be sure that you only ever include this mixin once!
 @include mat-core();
 
+// Cambiando la fuente por defecto (Roboto) a Nunito
+$custom-typography: mat-typography-config(
+  $font-family: 'Nunito'
+);
+
+@include angular-material-typography($custom-typography);
+
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue.
 $mi-color-primary: mat-palette($mat-deep-purple);
-$mi-color-accent:  mat-palette($mat-light-blue, A200, A100, A400);
+$mi-color-accent:  mat-palette($mat-light-green, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $mi-color-warn:    mat-palette($mat-red);

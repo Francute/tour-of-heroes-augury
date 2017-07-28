@@ -1,0 +1,12 @@
+<md-card>
+  <md-card-header>
+    <md-card-title class="puede-ser-largo centrar-texto">{{titulo}}</md-card-title>
+  </md-card-header>
+  <md-card-content>
+    <ng-content select="cuerpo-de-la-tarjeta"></ng-content>
+  </md-card-content>
+  <md-card-actions>
+    <ng-content select="pie-de-la-tarjeta"></ng-content>
+    <!--<ng-content select="[pie-de-tarjeta]"></ng-content>-->
+  </md-card-actions>
+</md-card>

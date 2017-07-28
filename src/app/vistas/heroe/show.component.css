@@ -1,0 +1,19 @@
+tarjeta p {
+  margin: 0;
+}
+tarjeta span,
+tarjeta label {
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: right;
+}
+tarjeta cuerpo-de-la-tarjeta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0 1rem;
+  margin-bottom: 0;
+}
+tarjeta pie-de-la-tarjeta {
+  display: flex;
+  justify-content: flex-end;
+}

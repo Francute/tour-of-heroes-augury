@@ -1,0 +1,12 @@
+<md-chip-list class="mat-chip-list-stacked">
+  <md-chip *ngFor="let item of items"
+    (click)="seleccionar(item)"
+    color="{{(itemSeleccionado == item) ? 'accent' : 'primary'}}"
+    class="item"
+    selected="true">
+
+    <div class="borde">{{item.id}}</div>
+    <span>{{item.nombre}}</span>
+
+  </md-chip>
+</md-chip-list>

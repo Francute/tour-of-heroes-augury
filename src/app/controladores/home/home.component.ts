@@ -6,4 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['../../vistas/home/home.component.styl']
 })
 export class HomeComponent {
+
+  heroeActual;
+  seDebeMostrarHeroe: boolean = false;
+
+  mostrarHeroe(heroe) {
+    this.seDebeMostrarHeroe = true;
+    this.heroeActual = heroe;
+  }
+
 }

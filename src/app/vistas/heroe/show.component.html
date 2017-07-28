@@ -1,18 +1,15 @@
-<md-card class="tarjeta-heroe">
-  <md-card-header>
-    <md-card-title class="puede-ser-largo centrar-texto">{{heroe.nombre}}</md-card-title>
-  </md-card-header>
-  <md-card-content>
+<tarjeta titulo="{{heroe.nombre}}">
+  <cuerpo-de-la-tarjeta>
     <span>id</span>
     <p>{{heroe.id}}</p>
     <span>nombre</span>
     <p class="puede-ser-largo">{{heroe.nombre}}</p>
     <span>salvaciones</span>
-    <p>{{heroe.salvaciones}}</p>
+    <p>{{heroe.salvaciones | decimales}}</p>
     <label>Nombre</label>
     <input [(ngModel)]="heroe.nombre" placeholder="Nombre del Héroe">
-  </md-card-content>
-  <md-card-actions>
+  </cuerpo-de-la-tarjeta>
+  <pie-de-la-tarjeta>
     <button md-button class="boton alterno" color="warn">
       <i class="material-icons marg-right">arrow_back</i>
       <span>Volver</span>
@@ -21,5 +18,5 @@
       <span>Editar</span>
       <i class="material-icons marg-left">mode_edit</i>
     </button>
-  </md-card-actions>
-</md-card>
+  </pie-de-la-tarjeta>
+</tarjeta>

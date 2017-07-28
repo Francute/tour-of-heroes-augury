@@ -1,39 +1,18 @@
-
 // Fuente Nunito - Versión Regular y Bold
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 // Fuente de Íconos - Material
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons')
 
+// Colores disponibles
 @import 'colores.styl'
+// Ayudas normales
+@import 'ayudas.styl'
 
-// Funciones comunes
-fondo(color)
-  background-color color
-
-opacidad(valor)
-  opacity valor
-
-.puede-ser-largo
-  word-break break-all
-
-.centrar-texto
-  text-align center
-
-.mat-toolbar
-  h1, a
-    color white
-
-.marg-right
-  margin-right .2rem
-
-.marg-left
-  margin-left .2rem
+html, body
+  margin 0
 
 md-card
   border 1px solid mat_grey_300
-  md-card-actions
-    display flex !important
-    justify-content flex-end
 
 // Solo por motivos de organización
 @import 'botones.styl'

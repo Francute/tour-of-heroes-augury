@@ -1,0 +1,14 @@
+md-card {
+  margin-top: 1rem;
+}
+md-card md-card-header {
+  display: flex;
+  justify-content: center;
+}
+md-card md-card-header md-card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+md-card md-card-actions {
+  text-align: right;
+}

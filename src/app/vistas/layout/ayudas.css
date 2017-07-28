@@ -1,0 +1,16 @@
+.puede-ser-largo {
+  word-break: break-all;
+}
+.centrar-texto {
+  text-align: center;
+}
+.mat-toolbar h1,
+.mat-toolbar a {
+  color: #fff;
+}
+.marg-right {
+  margin-right: 0.2rem;
+}
+.marg-left {
+  margin-left: 0.2rem;
+}

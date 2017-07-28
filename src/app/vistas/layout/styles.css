@@ -6,22 +6,18 @@
 .centrar-texto {
   text-align: center;
 }
-.mat-toolbar h1,
-.mat-toolbar a {
-  color: #fff;
-}
 .marg-right {
   margin-right: 0.2rem;
 }
 .marg-left {
   margin-left: 0.2rem;
 }
+html,
+body {
+  margin: 0;
+}
 md-card {
   border: 1px solid #e0e0e0;
-}
-md-card md-card-actions {
-  display: flex !important;
-  justify-content: flex-end;
 }
 .exito,
 .neutro,
@@ -44,6 +40,7 @@ md-card md-card-actions {
   display: flex;
   align-items: center;
   color: rgba(0,0,0,0.87) !important;
+  text-transform: uppercase !important;
 }
 .exito:hover {
   background-color: #f0ebf9;
@@ -65,6 +62,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 960px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -131,6 +130,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 930px) and (max-width: 959px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -197,6 +198,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 900px) and (max-width: 929px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -263,6 +266,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 870px) and (max-width: 899px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -329,6 +334,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 840px) and (max-width: 869px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -395,6 +402,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 810px) and (max-width: 839px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -461,6 +470,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 780px) and (max-width: 809px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -527,6 +538,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 750px) and (max-width: 779px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -593,6 +606,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 720px) and (max-width: 749px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -659,6 +674,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 690px) and (max-width: 719px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -725,6 +742,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 660px) and (max-width: 689px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -791,6 +810,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 630px) and (max-width: 659px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -857,6 +878,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 600px) and (max-width: 629px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -923,6 +946,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 570px) and (max-width: 599px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -989,6 +1014,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 540px) and (max-width: 569px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -1055,6 +1082,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 510px) and (max-width: 539px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -1121,6 +1150,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 480px) and (max-width: 509px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -1187,6 +1218,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 450px) and (max-width: 479px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -1253,6 +1286,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 420px) and (max-width: 449px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -1319,6 +1354,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 390px) and (max-width: 419px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,
@@ -1385,6 +1422,8 @@ md-card md-card-actions {
 }
 @media only screen and (min-width: 360px) and (max-width: 389px) {
   html,
+  md-chip span,
+  md-chip div,
   .mat-button,
   .mat-fab,
   .mat-icon-button,

@@ -1,0 +1,19 @@
+md-chip.item {
+  display: flex !important;
+  align-items: center;
+  padding: 0;
+}
+md-chip.item:hover {
+  transform: translateX(0.5rem);
+}
+md-chip.item .borde {
+  background-color: #ea80fc;
+  border-radius: 50% 0 0 50%;
+  padding: 0.5rem;
+  transform: scale(1.1);
+  color: #000;
+}
+md-chip.item span {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}

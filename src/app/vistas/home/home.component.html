@@ -1,2 +1,5 @@
 <cabecera></cabecera>
-<heroe></heroe>
+<cuerpo>
+  <lista-de-heroes (heroeSeleccionado)="mostrarHeroe($event)"></lista-de-heroes>
+  <heroe *ngIf="seDebeMostrarHeroe" [heroe]="heroeActual"></heroe>
+</cuerpo>
